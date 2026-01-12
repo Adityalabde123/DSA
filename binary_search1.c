@@ -16,7 +16,7 @@ int main()
   while(top<=bottom)
   {
      mid=(top+bottom)/2;
-     if(a[mid]==num);
+     if(a[mid]==num)
      {
         flag=1; break;
      }
@@ -30,5 +30,6 @@ int main()
   else 
   printf("number not found");
 }
+
 
 
