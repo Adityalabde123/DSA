@@ -21,15 +21,13 @@ int main()
         flag=1; break;
      }
      if(num>a[mid])
-     top=a[mid]+1;
+     top=mid+1;
      else
-     bottom=a[mid]-1;
+     bottom=mid-1;
   }
   if(flag==1)
   printf("number is found");
   else 
   printf("number not found");
 }
-
-
 
